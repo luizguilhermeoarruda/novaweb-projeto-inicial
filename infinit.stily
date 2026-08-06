@@ -1,0 +1,42 @@
+# Urban Style
+
+## Descrição do Projeto
+
+A Urban Style é uma loja virtual de roupas desenvolvida para oferecer uma experiência simples, moderna e prática aos clientes. O sistema permite visualizar produtos, realizar cadastro, fazer login e adicionar itens ao carrinho de compras.
+
+## Integrantes da Squad
+
+- Luiz Arruda
+- (Nome dos demais integrantes)
+
+## Estrutura Analítica do Projeto
+
+### Documentação
+- README
+- Planejamento
+
+### Front-end
+- Página inicial
+- Catálogo
+- Página de produto
+- Contato
+
+### Banco de Dados
+- Produtos
+- Clientes
+- Pedidos
+
+### Funcionalidades
+- Cadastro
+- Login
+- Carrinho
+- Finalização da compra
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+- Visual Studio Code
