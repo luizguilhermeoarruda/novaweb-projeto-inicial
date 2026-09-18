@@ -1,206 +1,221 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Spike Store</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
+    <title>Infinity Sports</title>
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-    background:#f4f4f4;
-}
-
-header{
-    background:#003366;
-    color:white;
-    text-align:center;
-    padding:25px;
-}
-
-header h1{
-    font-size:40px;
-}
-
-header p{
-    margin-top:10px;
-}
-
-nav{
-    margin-top:20px;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-weight:bold;
-}
-
-nav a:hover{
-    color:gold;
-}
-
-.banner{
-    background:#0057b8;
-    color:white;
-    text-align:center;
-    padding:70px;
-}
-
-.banner h2{
-    font-size:35px;
-}
-
-.banner p{
-    margin-top:15px;
-}
-
-section{
-    width:90%;
-    margin:40px auto;
-}
-
-section h2{
-    text-align:center;
-    margin-bottom:30px;
-    color:#003366;
-}
-
-.cards{
-    display:flex;
-    justify-content:center;
-    gap:25px;
-    flex-wrap:wrap;
-}
-
-.card{
-    background:white;
-    width:250px;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,.2);
-    text-align:center;
-}
-
-.card h3{
-    color:#003366;
-}
-
-.preco{
-    color:green;
-    font-size:22px;
-    font-weight:bold;
-    margin-top:15px;
-}
-
-.sobre{
-    text-align:center;
-    line-height:30px;
-}
-
-footer{
-    background:#003366;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
-}
-
-</style>
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<header>
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
 
-<h1>🏐 Spike Store</h1>
+        <a href="index.html" class="logo">
+            ∞ INFINITY
+            <small>SPORTS</small>
+        </a>
 
-<p>Tudo para elevar o seu jogo.</p>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="#explore">Explore</a>
+            <a href="contato.html">Contato</a>
+        </nav>
 
-<nav>
+    </header>
 
-<a href="#">Home</a>
 
-<a href="#">Produtos</a>
+    <!-- BANNER PRINCIPAL -->
+    <section class="banner">
 
-<a href="#">Contato</a>
+        <img src="imagens/banner.png" alt="Banner promocional Infinity Sports">
 
-</nav>
+    </section>
 
-</header>
 
-<div class="banner">
+    <!-- ÁREA EXPLORE -->
+    <section class="explore" id="explore">
 
-<h2>Os Melhores Produtos para Vôlei</h2>
+        <p class="titulo-pequeno">ENCONTRE SEU ESPORTE</p>
 
-<p>Qualidade, conforto e desempenho para atletas de todos os níveis.</p>
+        <h1>EXPLORE</h1>
 
-</div>
 
-<section>
+        <div class="explore-grid">
 
-<h2>Produtos em Destaque</h2>
+            <!-- 01 TREINO -->
+            <a href="produtos.html" class="explore-card">
 
-<div class="cards">
+                <img src="imagens/treino.png" alt="Pessoa praticando treino">
 
-<div class="card">
-<h3>Nike HyperSet 2</h3>
-<p>Tênis profissional para vôlei.</p>
-<p class="preco">R$ 999,90</p>
-</div>
+                <div class="explore-info">
 
-<div class="card">
-<h3>Bola Mikasa V200W</h3>
-<p>Bola oficial de competições.</p>
-<p class="preco">R$ 549,90</p>
-</div>
+                    <span>01</span>
 
-<div class="card">
-<h3>Joelheira Mizuno</h3>
-<p>Proteção e conforto.</p>
-<p class="preco">R$ 129,90</p>
-</div>
+                    <h2>TREINO</h2>
 
-<div class="card">
-<h3>Camisa Dry Fit</h3>
-<p>Ideal para treinos e jogos.</p>
-<p class="preco">R$ 99,90</p>
-</div>
+                    <p>Supere seus limites.</p>
 
-</div>
+                </div>
 
-</section>
+            </a>
 
-<section class="sobre">
 
-<h2>Sobre a Spike Store</h2>
+            <!-- 02 FUTEBOL -->
+            <a href="produtos.html" class="explore-card">
 
-<p>
-A Spike Store é uma loja especializada em artigos para vôlei.
-Nosso objetivo é oferecer produtos de alta qualidade para atletas
-e apaixonados pelo esporte, sempre com os melhores preços.
-</p>
+                <img src="imagens/futebol.png" alt="Jogador praticando futebol">
 
-</section>
+                <div class="explore-info">
 
-<footer>
+                    <span>02</span>
 
-<p>📧 contato@spikestore.com</p>
+                    <h2>FUTEBOL</h2>
 
-<p>📱 (11) 99999-9999</p>
+                    <p>Jogue com confiança.</p>
 
-<p>© 2026 Spike Store - Todos os direitos reservados.</p>
+                </div>
 
-</footer>
+            </a>
+
+
+            <!-- 03 CORRIDA -->
+            <a href="produtos.html" class="explore-card">
+
+                <img src="imagens/corrida.png" alt="Pessoas praticando corrida">
+
+                <div class="explore-info">
+
+                    <span>03</span>
+
+                    <h2>CORRIDA</h2>
+
+                    <p>Vá mais longe.</p>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUTOS EM DESTAQUE -->
+    <section class="produtos">
+
+        <p class="titulo-pequeno">CONFIRA NOSSOS</p>
+
+        <h1>PRODUTOS</h1>
+
+
+        <div class="produtos-grid">
+
+
+            <!-- PRODUTO 1 -->
+            <div class="produto">
+
+                <div class="produto-imagem">
+
+                    <img src="imagens/produto1.png"
+                        alt="Chuteira Nike Zoom Mercurial Superfly 9">
+
+                </div>
+
+                <h2>Chuteira Nike Zoom Mercurial Superfly 9</h2>
+
+                <p class="preco">R$ 699,99</p>
+
+                <a href="produtos.html">VER PRODUTO</a>
+
+            </div>
+
+
+            <!-- PRODUTO 2 -->
+            <div class="produto">
+
+                <div class="produto-imagem">
+
+                    <img src="imagens/produto2.png"
+                        alt="Camiseta Nike Pro Dri-FIT Masculina">
+
+                </div>
+
+                <h2>Camiseta Nike Pro Dri-FIT Masculina</h2>
+
+                <p class="preco">R$ 159,99</p>
+
+                <a href="produtos.html">VER PRODUTO</a>
+
+            </div>
+
+
+            <!-- PRODUTO 3 -->
+            <div class="produto">
+
+                <div class="produto-imagem">
+
+                    <img src="imagens/produto3.png"
+                        alt="Bola de Futebol adidas Trionda Oficial">
+
+                </div>
+
+                <h2>Bola de Futebol adidas Trionda Oficial</h2>
+
+                <p class="preco">R$ 199,99</p>
+
+                <a href="produtos.html">VER PRODUTO</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SOBRE A LOJA -->
+    <section class="sobre">
+
+        <div>
+
+            <p class="titulo-pequeno">INFINITY SPORTS</p>
+
+            <h1>
+                CORRA.<br>
+                TREINE.<br>
+                SUPERE.
+            </h1>
+
+            <p>
+                Na Infinity Sports você encontra produtos
+                esportivos para acompanhar seu desempenho,
+                seu treino e sua paixão pelo esporte.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="logo">
+            ∞ INFINITY
+            <small>SPORTS</small>
+        </div>
+
+        <p>
+            © 2026 Infinity Sports
+        </p>
+
+    </footer>
+
 
 </body>
 </html>

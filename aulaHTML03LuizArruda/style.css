@@ -1,0 +1,43 @@
+body {
+    background-color: yellow;
+}
+
+
+/* CARD DA ATIVIDADE */
+
+.card {
+    width: 300px;
+    height: 150px;
+
+    padding: 20px;
+
+    border: 1px solid black;
+
+    margin: 10px auto;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    background-color: white;
+}
+
+
+/* TÍTULO DO CARD */
+
+.card h1 {
+    text-align: center;
+}
+
+
+/* SOBRE MIM E OUTRAS SEÇÕES */
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+
+/* IMAGEM */
+
+img {
+    border: 5px solid black;
+}
