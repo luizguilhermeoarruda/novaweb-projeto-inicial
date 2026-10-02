@@ -1,0 +1,111 @@
+﻿* { box-sizing: border-box; }
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: #171717;
+    background: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a { color: #171717; }
+
+.topo {
+    min-height: 76px;
+    padding: 16px clamp(20px, 6vw, 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background: #000;
+    color: #fff;
+}
+
+.marca {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-decoration: none;
+}
+
+.marca span { margin-right: 7px; font-size: 25px; }
+.voltar { color: #fff; font-size: 14px; }
+
+main {
+    flex: 1;
+    display: grid;
+    place-items: center;
+    padding: 48px 20px;
+}
+
+.cartao-login {
+    width: min(100%, 440px);
+    padding: clamp(28px, 6vw, 44px);
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 10px 35px rgb(0 0 0 / 6%);
+}
+
+.chamada { margin: 0 0 10px; font-size: 12px; font-weight: 700; letter-spacing: .13em; }
+h1 { margin: 0; font-size: clamp(26px, 6vw, 32px); }
+.descricao { margin: 10px 0 30px; color: #666; line-height: 1.5; }
+
+form > label, .linha-senha label { font-size: 14px; font-weight: 700; }
+form > input, .campo-senha input {
+    width: 100%;
+    height: 48px;
+    margin: 8px 0 22px;
+    padding: 0 13px;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    background: #fff;
+    color: #171717;
+    font: inherit;
+}
+input:focus { outline: 2px solid #555; outline-offset: 2px; }
+.linha-senha { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.linha-senha a, .cadastro a { font-size: 13px; font-weight: 700; }
+.campo-senha { position: relative; }
+.campo-senha input { padding-right: 82px; }
+.mostrar-senha {
+    position: absolute;
+    top: 19px;
+    right: 12px;
+    padding: 4px;
+    border: 0;
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+    font: inherit;
+    font-size: 13px;
+}
+.lembrar { display: flex; align-items: center; gap: 8px; margin: -4px 0 22px; color: #444; font-size: 14px; }
+.lembrar input { width: 16px; height: 16px; accent-color: #000; }
+.botao-entrar {
+    width: 100%;
+    min-height: 48px;
+    border: 0;
+    border-radius: 4px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    letter-spacing: .04em;
+}
+.botao-entrar:hover { background: #292929; }
+.mensagem { min-height: 20px; margin: 12px 0 0; color: #9b1c1c; font-size: 13px; }
+.cadastro { margin: 8px 0 0; color: #555; text-align: center; font-size: 14px; }
+footer { padding: 18px; background: #000; color: #fff; text-align: center; }
+footer p { margin: 0; font-size: 13px; }
+
+@media (max-width: 420px) {
+    .topo { min-height: 66px; padding-inline: 18px; }
+    .marca { font-size: 15px; }
+    .voltar { font-size: 13px; }
+    main { padding: 28px 14px; }
+}

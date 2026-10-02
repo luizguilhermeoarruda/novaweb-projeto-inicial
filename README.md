@@ -168,3 +168,40 @@ A estrutura inicial do projeto está preparada para receber a etapa de desenvolv
 ## 👨‍💻 Responsável
 
 **Estudante do Curso Técnico em Desenvolvimento de Sistemas**
+
+# Projeto Nova-Web - Especificações de UI/UX (Tela de Login)
+
+## 1. Conceitos de Usabilidade em Formulários
+
+### Labels e placeholders
+
+Cada campo deve ter uma `label` visível, associada ao controle por `for` e `id`. O placeholder serve apenas como exemplo ou dica curta dentro do campo; ele desaparece durante a digitação e pode ter contraste baixo, portanto não identifica o campo de forma confiável. A label permanece visível e também fornece o nome que tecnologias assistivas anunciam. Instruções importantes, como formato ou requisitos de senha, devem ficar fora do placeholder e ser associadas ao campo quando necessário.
+
+### Hierarquia visual
+
+- **Ação primária — Entrar:** botão preenchido em preto, texto branco, largura total e destaque visual maior. É a ação principal da tela.
+- **Ações secundárias — Esqueci a senha? e Cadastre-se:** links com estilo mais discreto, sem competir visualmente com o botão principal. Permanecem legíveis e fáceis de localizar.
+
+## 2. Estados de Validação dos Campos de Entrada
+
+- **Default (padrão):** campo com fundo branco e borda neutra; label escura, visível e posicionada fora do campo.
+- **Focus (foco):** contorno/anel escuro claramente visível ao clicar ou navegar com Tab. O foco não deve ser removido nem depender somente de mudança sutil de cor.
+- **Error (erro):** borda vermelha acompanhada de mensagem curta e específica junto ao campo, explicando como corrigir. A informação não deve ser comunicada apenas pela cor; quando possível, associar a mensagem ao campo e anunciá-la para leitores de tela.
+- **Success (sucesso):** indicador positivo, como texto ou ícone acompanhado de uma mensagem clara. Não usar apenas a cor verde para comunicar o estado.
+- **Disabled (desabilitado):** aparência atenuada e controle não interativo. O estado deve continuar identificável e o texto legível; contraste reduzido não deve tornar a informação essencial impossível de ler.
+
+## 3. Padrões de Acessibilidade
+
+- **Contraste:** para atender ao WCAG 2.2 nível AA, texto comum deve ter contraste mínimo de **4,5:1** em relação ao fundo. Texto grande (a partir de 18 pt ou 14 pt em negrito) deve ter pelo menos **3:1**. Não use cor como único meio de transmitir erro, sucesso ou foco.
+- **Labels e instruções:** todos os campos precisam de rótulos programaticamente associados. Instruções e erros devem ser claros e estar próximos do campo correspondente.
+- **Teclado e foco:** a ordem de navegação por Tab deve acompanhar a ordem visual e lógica da página. Links, campos e botões precisam ser alcançáveis e operáveis pelo teclado, com indicador de foco sempre visível.
+- **Leitores de tela e feedback:** use elementos HTML semânticos e nomes compreensíveis. Anuncie erros e mensagens de estado sem exigir que a pessoa procure visualmente a informação; não dependa apenas de alterações visuais.
+
+## Referências
+
+- [W3C WAI — Rótulos para controles de formulário](https://www.w3.org/WAI/tutorials/forms/labels/)
+- [W3C WAI — Instruções para formulários e uso de placeholders](https://www.w3.org/WAI/tutorials/forms/instructions/)
+- [W3C WAI — Validação de formulários](https://www.w3.org/WAI/tutorials/forms/validation/)
+- [W3C WAI — Notificações e mensagens de erro](https://www.w3.org/WAI/tutorials/forms/notifications/)
+- [W3C — WCAG 2.2: contraste mínimo (critério 1.4.3)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
+- [W3C — WCAG 2.2: foco visível (critério 2.4.7)](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html)

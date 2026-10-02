@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <title>Entrar | Infinity Sports</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <header class="topo">
+        <a class="marca" href="../Infinity%20Sports/index.html" aria-label="Infinity Sports, página inicial">
+            <span aria-hidden="true">∞</span> INFINITY SPORTS
+        </a>
+        <a class="voltar" href="../Infinity%20Sports/index.html">Voltar à loja</a>
+    </header>
+
+    <main>
+        <section class="cartao-login" aria-labelledby="titulo-login">
+            <p class="chamada">BEM-VINDO DE VOLTA</p>
+            <h1 id="titulo-login">Entre na sua conta</h1>
+            <p class="descricao">Acesse sua conta para acompanhar seus pedidos.</p>
+
+            <form id="form-login" novalidate>
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" placeholder="voce@exemplo.com" autocomplete="email" required>
+
+                <div class="linha-senha">
+                    <label for="senha">Senha</label>
+                    <a href="#" id="esqueci-senha">Esqueceu a senha?</a>
+                </div>
+                <div class="campo-senha">
+                    <input id="senha" name="senha" type="password" placeholder="Digite sua senha" autocomplete="current-password" required minlength="6">
+                    <button class="mostrar-senha" id="mostrar-senha" type="button" aria-label="Mostrar senha" aria-pressed="false">Mostrar</button>
+                </div>
+
+                <label class="lembrar"><input type="checkbox" name="lembrar"> <span>Manter conectado</span></label>
+                <button class="botao-entrar" type="submit">ENTRAR</button>
+                <p id="mensagem" class="mensagem" role="status" aria-live="polite"></p>
+            </form>
+
+            <p class="cadastro">Ainda não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </section>
+    </main>
+
+    <footer><p>Infinity Sports - 2026</p></footer>
+</body>
+</html>
