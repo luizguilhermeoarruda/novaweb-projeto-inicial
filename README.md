@@ -135,3 +135,13 @@ https://github.com/luizguilhermeoarruda/novaweb-projeto-inicial
 A Situação de Aprendizagem 02 permitiu organizar o planejamento das interfaces do Infinity Sports, identificar os recursos necessários e definir uma sequência para as etapas de desenvolvimento.
 
 Com os protótipos Desktop e Mobile criados, o projeto possui uma base visual para continuar com a implementação, integração e validação das funcionalidades do sistema.
+
+| Etapa | Status |
+|---|---|
+| Criação do protótipo no Figma | Concluído |
+| Adaptação das telas para Mobile | Concluído |
+| Otimização das imagens em WebP | Concluído |
+| Organização dos arquivos no GitHub | Concluído |
+| Validação das telas | Pendente |
+| Desenvolvimento HTML e CSS | Pendente |
+| Integração e testes | Pendente |
