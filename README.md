@@ -1,207 +1,137 @@
-# 👕 Loja Roupa
+# Infinity Sports — Situação de Aprendizagem 02
 
-## 📌 Descrição do Projeto
+## 1. Descrição do Projeto
 
-A **Loja Roupa** é um projeto de loja virtual de roupas desenvolvido como parte do Projeto 01 do curso Técnico em Desenvolvimento de Sistemas.
+O Infinity Sports é um projeto de sistema voltado para o ambiente esportivo, desenvolvido como parte da Situação de Aprendizagem 02 do curso Técnico em Desenvolvimento de Sistemas.
 
-O sistema tem como objetivo apresentar produtos de vestuário de forma organizada, permitindo que o usuário visualize os produtos, consulte suas informações e adicione itens ao carrinho.
+O objetivo é criar uma interface organizada e intuitiva para apresentar informações e produtos esportivos, permitindo que o usuário acesse sua conta, visualize seu perfil e consulte produtos.
 
----
+## 2. Objetivo
 
-## 🎯 Objetivo
+Planejar o desenvolvimento das interfaces do sistema, organizar os recursos humanos e materiais necessários e elaborar um cronograma com as etapas de criação e integração dos componentes.
 
-Desenvolver uma loja virtual de roupas com uma interface simples, organizada e intuitiva, utilizando tecnologias de desenvolvimento web.
+O projeto considera as versões Desktop e Mobile, buscando proporcionar uma boa experiência de uso em diferentes dispositivos.
 
-O projeto será desenvolvido inicialmente com **HTML, CSS e JavaScript**, seguindo as etapas de planejamento, estruturação, desenvolvimento e testes.
+## 3. Telas do Sistema
 
----
+O protótipo foi desenvolvido no Figma e possui seis telas:
 
-## 📋 Escopo do Projeto
+| Tela | Versão |
+|---|---|
+| Login | Desktop |
+| Perfil/Dashboard | Desktop |
+| Consulta de Produtos | Desktop |
+| Login | Mobile |
+| Perfil/Dashboard | Mobile |
+| Consulta de Produtos | Mobile |
 
-O projeto contempla inicialmente:
+### Funcionalidades previstas
 
-* Página inicial da loja;
-* Página de produtos;
-* Página individual de cada produto;
-* Carrinho de compras;
-* Organização e apresentação dos produtos;
-* Estilização das páginas;
-* Interações utilizando JavaScript;
-* Testes e correções do sistema.
+- **Login:** acesso do usuário ao sistema por meio de autenticação.
+- **Perfil/Dashboard:** apresentação das informações do usuário.
+- **Consulta de Produtos:** visualização dos produtos em uma tabela, com campo de pesquisa para facilitar a consulta.
 
----
+## 4. Protótipo no Figma
 
-## 🧩 EAP — Estrutura Analítica do Projeto
+O protótipo de alta fidelidade foi desenvolvido no Figma, contemplando as três telas principais nas versões Desktop e Mobile.
 
-| Código | Etapa                | Descrição                                      |
-| ------ | -------------------- | ---------------------------------------------- |
-| 1      | Planejamento         | Definição inicial do projeto                   |
-| 1.1    | Ideia da loja        | Definição da proposta da Loja Roupa            |
-| 1.2    | Requisitos           | Levantamento das necessidades do sistema       |
-| 1.3    | Público-alvo         | Definição dos usuários da loja                 |
-| 1.4    | Funcionalidades      | Definição das principais funções               |
-| 2      | Arquitetura          | Organização das páginas e navegação            |
-| 2.1    | Wireframes           | Criação das telas do sistema                   |
-| 2.2    | Identidade visual    | Definição de fontes, cores e elementos visuais |
-| 3      | Estrutura do projeto | Organização das pastas e arquivos              |
-| 3.1    | README               | Documentação do projeto                        |
-| 3.2    | EAP e Cronograma     | Organização das etapas de desenvolvimento      |
-| 4      | Desenvolvimento      | Implementação da loja virtual                  |
-| 4.1    | HTML                 | Criação da estrutura das páginas               |
-| 4.2    | CSS                  | Estilização das páginas                        |
-| 4.3    | JavaScript           | Implementação das interações                   |
-| 5      | Testes               | Verificação do funcionamento                   |
-| 5.1    | Correções            | Correção dos problemas encontrados             |
-| 6      | Publicação           | Preparação e publicação do projeto             |
+[ Acessar o protótipo Infinity Sports no Figma](https://www.figma.com/design/J2HLt2305AA4dsNRRXxKfn/Sem-t%C3%ADtulo?t=8hwi6lszxOR8TGFA-0)
 
----
+## 5. Matriz de Recursos Humanos e Materiais
 
-## 📅 Cronograma — Kanban
+### 5.1 Recursos Humanos
 
-O desenvolvimento do projeto está organizado utilizando o modelo **Kanban**, dividido em três etapas: **A Fazer, Em Andamento e Concluído**.
+| Profissional | Responsabilidades |
+|---|---|
+| Gerente de Projeto | Organizar as atividades e acompanhar o cronograma. |
+| Analista de Requisitos | Identificar as necessidades e funcionalidades do sistema. |
+| UI/UX Designer | Criar as telas, organizar os elementos e adaptar o layout para dispositivos móveis. |
+| Desenvolvedor Front-End | Transformar os protótipos em páginas utilizando HTML, CSS e JavaScript. |
+| Cliente/Instrutor | Avaliar as telas, fornecer feedback e aprovar as alterações. |
 
-### 🟡 A Fazer
+**Observação:** o projeto está sendo realizado individualmente pelo aluno, que assume as atividades de planejamento e prototipagem. Os demais profissionais representam as funções necessárias em uma equipe de desenvolvimento.
 
-* Preparação para desenvolvimento HTML;
-* Desenvolvimento da página inicial;
-* Desenvolvimento da página de produtos;
-* Desenvolvimento da página individual do produto;
-* Desenvolvimento do carrinho;
-* Estilização com CSS;
-* Implementação das interações com JavaScript;
-* Testes;
-* Correções;
-* Publicação final.
+### 5.2 Recursos Materiais
 
-### 🟠 Em Andamento
+| Recurso | Finalidade |
+|---|---|
+| Computador | Desenvolver e organizar o projeto. |
+| Internet | Acessar ferramentas e compartilhar arquivos. |
+| Figma | Criar e editar os protótipos das interfaces. |
+| Visual Studio Code | Editar os arquivos HTML, CSS e JavaScript. |
+| Git | Controlar as versões dos arquivos. |
+| GitHub | Armazenar e publicar o projeto. |
+| Squoosh | Comprimir e otimizar imagens para a web. |
+| Unsplash e Pexels | Disponibilizar imagens gratuitas para uso no projeto. |
 
-No momento, não existem atividades em andamento.
+### 5.3 Infraestrutura
 
-### 🟢 Concluído
+O projeto será desenvolvido em um computador com acesso à internet. Serão utilizadas ferramentas gratuitas ou com versões gratuitas para criação, edição, organização e publicação dos arquivos.
 
-* Definição da ideia da loja;
-* Levantamento de requisitos;
-* Definição do público-alvo;
-* Definição das funcionalidades;
-* Estruturação da arquitetura do site;
-* Criação dos wireframes;
-* Revisão dos wireframes;
-* Definição da identidade visual;
-* Organização da estrutura de pastas;
-* Criação da documentação;
-* Elaboração da EAP;
-* Elaboração do cronograma.
+## 6. Cronograma Sequenciado de Desenvolvimento
 
-### 🖼️ Visualização do Kanban
+| Ordem | Atividade | Responsável | Prazo estimado | Status |
+|---|---|---|---|---|
+| 1 | Levantamento dos requisitos | Analista de Requisitos | 1 dia | Concluído |
+| 2 | Definição da identidade visual | UI/UX Designer | 1 dia | Concluído |
+| 3 | Criação do protótipo de Login | UI/UX Designer | 1 dia | Concluído |
+| 4 | Criação do protótipo de Perfil/Dashboard | UI/UX Designer | 1 dia | Concluído |
+| 5 | Criação do protótipo de Consulta de Produtos | UI/UX Designer | 1 dia | Concluído |
+| 6 | Adaptação das telas para Mobile | UI/UX Designer | 2 dias | Concluído |
+| 7 | Validação dos protótipos e ajustes | Cliente/Instrutor e UI/UX Designer | 1 dia | Pendente |
+| 8 | Seleção e otimização das imagens | Desenvolvedor Front-End | 1 dia | Pendente |
+| 9 | Organização dos arquivos e publicação no GitHub | Gerente de Projeto | 1 dia | Em andamento |
+| 10 | Desenvolvimento das interfaces em HTML e CSS | Desenvolvedor Front-End | 3 dias | Pendente |
+| 11 | Integração dos componentes e testes | Desenvolvedor Front-End | 2 dias | Pendente |
 
-![Kanban do Projeto](docs/kanban.png)
+## 7. Justificativa da Sequência das Atividades
 
----
+A sequência foi organizada para facilitar o desenvolvimento e evitar retrabalho.
 
-## 🖼️ Wireframes
+Primeiro, são definidos os requisitos e a identidade visual do sistema. Depois, são criados os protótipos das três telas principais e suas adaptações para dispositivos móveis.
 
-Os wireframes foram desenvolvidos durante a etapa de planejamento e representam a estrutura visual das principais telas da Loja Roupa.
+Após essa etapa, os protótipos devem ser avaliados pelo cliente ou instrutor, permitindo realizar correções antes do desenvolvimento.
 
-### Página Inicial
+A seleção e a otimização das imagens também devem acontecer antes da programação em HTML e CSS, para melhorar o carregamento das páginas e evitar problemas durante a implementação.
 
-![Wireframe da Página Inicial](docs/wireframes/home.png)
+O desenvolvimento considera a abordagem Mobile-First, priorizando a organização das interfaces para telas menores e depois adaptando os elementos para telas maiores.
 
-### Página de Produtos
+Por último, são realizadas a integração dos componentes, os testes e as correções necessárias.
 
-![Wireframe da Página de Produtos](docs/wireframes/produtos.png)
+## 8. Organização dos Arquivos
 
-### Página do Produto
-
-![Wireframe da Página do Produto](docs/wireframes/produto.png)
-
----
-
-## 📁 Estrutura do Projeto
+A estrutura prevista para o projeto é:
 
 ```text
-loja-roupa/
+Infinity-Sports/
 │
 ├── README.md
 │
-├── docs/
-│   ├── kanban.png
-│   └── wireframes/
-│       ├── home.png
-│       ├── produtos.png
-│       └── produto.png
+├── images/
+│   ├── banner
+│   ├── produtos
+│   └── propagandas
 │
-├── assets/
-│   └── images/
+├── index.html
 │
 ├── css/
 │   └── style.css
 │
-├── js/
-│   └── script.js
-│
-└── src/
-    └── index.html
+└── js/
+    └── script.js
 ```
 
----
+## 9. Publicação e Controle de Versão
 
-## 🛠️ Tecnologias
+O projeto será armazenado em um repositório público no GitHub. O Git será utilizado para acompanhar as alterações realizadas nos arquivos e manter o histórico de versões.
 
-As principais tecnologias previstas para o desenvolvimento são:
+As imagens utilizadas serão organizadas na pasta `images`, enquanto a documentação e o link do protótipo ficarão disponíveis neste repositório.
 
-* HTML5
-* CSS3
-* JavaScript
-* Git
-* GitHub
+**Repositório GitHub:**  
+https://github.com/luizguilhermeoarruda/novaweb-projeto-inicial
 
----
+## 10. Considerações Finais
 
-## 📌 Status do Projeto
+A Situação de Aprendizagem 02 permitiu organizar o planejamento das interfaces do Infinity Sports, identificar os recursos necessários e definir uma sequência para as etapas de desenvolvimento.
 
-**Projeto 01 — Planejamento e documentação concluídos.**
-
-A estrutura inicial do projeto está preparada para receber a etapa de desenvolvimento HTML.
-
----
-
-## 👨‍💻 Responsável
-
-**Estudante do Curso Técnico em Desenvolvimento de Sistemas**
-
-# Projeto Nova-Web - Especificações de UI/UX (Tela de Login)
-
-## 1. Conceitos de Usabilidade em Formulários
-
-### Labels e placeholders
-
-Cada campo deve ter uma `label` visível, associada ao controle por `for` e `id`. O placeholder serve apenas como exemplo ou dica curta dentro do campo; ele desaparece durante a digitação e pode ter contraste baixo, portanto não identifica o campo de forma confiável. A label permanece visível e também fornece o nome que tecnologias assistivas anunciam. Instruções importantes, como formato ou requisitos de senha, devem ficar fora do placeholder e ser associadas ao campo quando necessário.
-
-### Hierarquia visual
-
-- **Ação primária — Entrar:** botão preenchido em preto, texto branco, largura total e destaque visual maior. É a ação principal da tela.
-- **Ações secundárias — Esqueci a senha? e Cadastre-se:** links com estilo mais discreto, sem competir visualmente com o botão principal. Permanecem legíveis e fáceis de localizar.
-
-## 2. Estados de Validação dos Campos de Entrada
-
-- **Default (padrão):** campo com fundo branco e borda neutra; label escura, visível e posicionada fora do campo.
-- **Focus (foco):** contorno/anel escuro claramente visível ao clicar ou navegar com Tab. O foco não deve ser removido nem depender somente de mudança sutil de cor.
-- **Error (erro):** borda vermelha acompanhada de mensagem curta e específica junto ao campo, explicando como corrigir. A informação não deve ser comunicada apenas pela cor; quando possível, associar a mensagem ao campo e anunciá-la para leitores de tela.
-- **Success (sucesso):** indicador positivo, como texto ou ícone acompanhado de uma mensagem clara. Não usar apenas a cor verde para comunicar o estado.
-- **Disabled (desabilitado):** aparência atenuada e controle não interativo. O estado deve continuar identificável e o texto legível; contraste reduzido não deve tornar a informação essencial impossível de ler.
-
-## 3. Padrões de Acessibilidade
-
-- **Contraste:** para atender ao WCAG 2.2 nível AA, texto comum deve ter contraste mínimo de **4,5:1** em relação ao fundo. Texto grande (a partir de 18 pt ou 14 pt em negrito) deve ter pelo menos **3:1**. Não use cor como único meio de transmitir erro, sucesso ou foco.
-- **Labels e instruções:** todos os campos precisam de rótulos programaticamente associados. Instruções e erros devem ser claros e estar próximos do campo correspondente.
-- **Teclado e foco:** a ordem de navegação por Tab deve acompanhar a ordem visual e lógica da página. Links, campos e botões precisam ser alcançáveis e operáveis pelo teclado, com indicador de foco sempre visível.
-- **Leitores de tela e feedback:** use elementos HTML semânticos e nomes compreensíveis. Anuncie erros e mensagens de estado sem exigir que a pessoa procure visualmente a informação; não dependa apenas de alterações visuais.
-
-## Referências
-
-- [W3C WAI — Rótulos para controles de formulário](https://www.w3.org/WAI/tutorials/forms/labels/)
-- [W3C WAI — Instruções para formulários e uso de placeholders](https://www.w3.org/WAI/tutorials/forms/instructions/)
-- [W3C WAI — Validação de formulários](https://www.w3.org/WAI/tutorials/forms/validation/)
-- [W3C WAI — Notificações e mensagens de erro](https://www.w3.org/WAI/tutorials/forms/notifications/)
-- [W3C — WCAG 2.2: contraste mínimo (critério 1.4.3)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
-- [W3C — WCAG 2.2: foco visível (critério 2.4.7)](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html)
+Com os protótipos Desktop e Mobile criados, o projeto possui uma base visual para continuar com a implementação, integração e validação das funcionalidades do sistema.
